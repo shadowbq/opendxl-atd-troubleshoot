@@ -6,6 +6,12 @@ You need to install the EPO Extension for `ATDDXLTags`. This will allow for mana
 
 ![install](epo_extension/extension-installed.png?raw=true)
 
+This extension is listed as supported under EPO 5.9.x [KB87142](https://kc.mcafee.com/corporate/index?page=content&id=KB87142&actp=null&viewlocale=en_US)
+
+Products → Downloads → My Products → All Versions → ATD 3.4
+
+MATDDXLTag.zip
+
 Permissions
 
 ![permissions](epo_extension/extension.png?raw=true)
