@@ -1,5 +1,7 @@
 # Listen to ATD Reports that get broadcast on OpenDXL
 
+McAfee Advanced Threat Defense can be configured to broadcast everytime it identifies malware, or completes a sample. This is similiar to a registered webhook, but better because it is on the DXL (Pub/Sub framework). 
+
 ```/mcafee/event/atd/file/report```
 
 You need to install the EPO Extension for `ATDDXLTags`. This will allow for management of the channel.
