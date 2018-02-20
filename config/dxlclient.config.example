@@ -1,0 +1,9 @@
+[Certs]
+BrokerCertChain=$HOME/opendxl-atd-troubleshoot/config/broker.crt
+
+CertFile=$HOME/opendxl-atd-troubleshoot/config/client.crt
+PrivateKey=$HOME/opendxl-atd-troubleshoot/config/client.key
+
+[Brokers]
+{d08fb638-208e-11e7-1a34-005056a4473a}={d08fb638-208e-11e7-1a34-005056a4473a};8883;poddxlbroker1;10.1.0.11
+{0060f20a-208a-11e7-3adf-005056a4270a}={0060f20a-208a-11e7-3adf-005056a4270a};8883;poddxlbroker2;10.1.0.12
