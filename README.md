@@ -12,15 +12,23 @@ This extension is listed as supported under EPO 5.9.x [KB87142](https://kc.mcafe
 
 Products → Downloads → My Products → All Versions → ATD 3.4
 
+```
 MATDDXLTag.zip
+```
 
-Permissions
+# Configure Requirements
+
+## EPO DXL Permissions
 
 ![permissions](epo_extension/extension.png?raw=true)
 
-System Tree
+## EPO System Tree
 
 ![systemtree](epo_extension/extension-systemtree.png?raw=true)
+
+## McAfee ATD
+
+![atd](epo_extension/ATD_TIE_Publish.png?raw=true)
 
 # Install
 
