@@ -271,3 +271,34 @@ payload: {
 }
 
 ```
+# Changing TIE Server Log Levels
+
+## TIE Server
+
+It may also help to change the current log level of the TIE server, to also see additional information.
+
+You can find information about the files that are sent to ATD on the TIE server at `/var/McAfee/tieserver/logs/tieserver.log`.
+ 
+To increase the verbosity of the ATD logging:
+Use a text editor to uncomment the following lines in `/opt/McAfee/tieserver/conf/log4j.properties`:
+
+```
+#log4j.logger.com.mcafee.jti.server.service.atd=trace, file
+#log4j.additivity.com.mcafee.jti.server.service.atd=false
+
+log4j.logger.com.mcafee.jti.server.service.atd=trace, file
+log4j.additivity.com.mcafee.jti.server.service.atd=false
+ ```
+ 
+Use the following command to restart the TIE server service:
+
+```
+$> service tieserver restart
+```
+
+## Within McAfee EPO 
+
+On the Server Configuration tab, configure the logging level of the server, enable or disable collecting
+metrics, and modify the sampling period for collecting performance metrics.
+
+https://kc.mcafee.com/corporate/index?page=content&id=KB82923&actp=null&viewlocale=en_US&showDraft=false&platinum_status=false&locale=en_US
