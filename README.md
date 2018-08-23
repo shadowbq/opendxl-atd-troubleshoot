@@ -17,8 +17,39 @@ MATDDXLTag.zip
 ```
 # General McAfee Information
 
-https://support.mcafee.com/ServicePortal/faces/knowledgecenter?p=Advanced+Threat+Defense
+* https://support.mcafee.com/ServicePortal/faces/knowledgecenter?p=Advanced+Threat+Defense
 
+* https://kc.mcafee.com/resources/sites/MCAFEE/content/live/PRODUCT_DOCUMENTATION/27000/PD27380/en_US/MATD_420_CLI_Reference_Guide_en-us.pdf
+
+Try using the CLI command `dxlstatus`, `clearstats all`, &  `restart dxlservice` on the ATD to troubleshoot the DXL.
+
+```
+> dxlstatus
+<=== DXL STATUS ===>
+Status : DISABLED
+DXL Channel Status : DOWN
+Sample Files Received Count : 0
+Sample Files Published Count : 0
+Sample Files Queued Count : 0
+
+> clearstats all
+ 
+ <=== DXL STATUS ===>
+Status : DISABLED
+DXL Channel Status : DOWN
+Sample Files Received Count : 0
+Sample Files Published Count : 0
+Sample Files Queued Count : 0
+ ```
+
+Additionally you will want to ensure this is correct
+
+ `show tepublisherstatus`
+
+```
+********ePO Threat Event Publisher Status********
+ tepublisher is not running
+```
 # Configure Requirements
 
 ## EPO DXL Permissions
