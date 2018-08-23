@@ -15,6 +15,9 @@ Products → Downloads → My Products → All Versions → ATD 3.4
 ```
 MATDDXLTag.zip
 ```
+# General McAfee Information
+
+https://support.mcafee.com/ServicePortal/faces/knowledgecenter?p=Advanced+Threat+Defense
 
 # Configure Requirements
 
