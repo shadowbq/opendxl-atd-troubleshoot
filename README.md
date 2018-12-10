@@ -304,12 +304,19 @@ payload: {
 ```
 # Changing TIE Server Log Levels
 
-## TIE Server
-
 It may also help to change the current log level of the TIE server, to also see additional information.
 
 You can find information about the files that are sent to ATD on the TIE server at `/var/McAfee/tieserver/logs/tieserver.log`.
- 
+
+
+## TIE Server 2.x
+
+Change the log level in the UI of EPO with a Policy Setting for the TIE Server.
+
+You may want to restart the TIE server or service
+
+### TIE Server 1.x
+
 To increase the verbosity of the ATD logging:
 Use a text editor to uncomment the following lines in `/opt/McAfee/tieserver/conf/log4j.properties`:
 
