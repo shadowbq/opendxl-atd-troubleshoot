@@ -311,11 +311,14 @@ You can find information about the files that are sent to ATD on the TIE server 
 
 ## TIE Server 2.x
 
-Change the log level in the UI of EPO with a Policy Setting for the TIE Server.
+Change the log level in the *UI of EPO* with a Policy Setting for the TIE Server.
+
+On the Server Configuration tab, configure the logging level of the server, enable or disable collecting
+metrics, and modify the sampling period for collecting performance metrics.
 
 You may want to restart the TIE server or service
 
-### TIE Server 1.x
+## TIE Server 1.x
 
 To increase the verbosity of the ATD logging:
 Use a text editor to uncomment the following lines in `/opt/McAfee/tieserver/conf/log4j.properties`:
@@ -334,9 +337,5 @@ Use the following command to restart the TIE server service:
 $> service tieserver restart
 ```
 
-## Within McAfee EPO 
 
-On the Server Configuration tab, configure the logging level of the server, enable or disable collecting
-metrics, and modify the sampling period for collecting performance metrics.
 
-https://kc.mcafee.com/corporate/index?page=content&id=KB82923&actp=null&viewlocale=en_US&showDraft=false&platinum_status=false&locale=en_US
