@@ -54,6 +54,10 @@ Additionally you will want to ensure this is correct
 
 ## EPO DXL Permissions
 
+DXL Permissions are implicit and the Everyone permission works even with certificates. If you limit the read only permissions of the report, you must explicityly at least allow the TIE server to read the channel
+
+```/mcafee/event/atd/file/report```
+
 ![permissions](epo_extension/extension.png?raw=true)
 
 ## EPO System Tree
