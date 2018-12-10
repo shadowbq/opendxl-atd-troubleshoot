@@ -54,7 +54,7 @@ Additionally you will want to ensure this is correct
 
 ## EPO DXL Permissions
 
-DXL Permissions are implicit and the `All Systems`e permission works even with certificates. If you limit the read only permissions of the report, you must explicityly at least allow the TIE server to read the channel, or create a common tag for all systems.
+DXL Permissions are implicit and the `All Systems` permission works even with certificates, not just tag or ma present machines. If you limit the read only permissions of the report, you must explicitly at least allow the TIE server to read the channel, or create a common tag for all systems.
 
 ```/mcafee/event/atd/file/report```
 
