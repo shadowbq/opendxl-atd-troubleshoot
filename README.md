@@ -4,7 +4,9 @@ McAfee Advanced Threat Defense can be configured to broadcast everytime it ident
 
 ```/mcafee/event/atd/file/report```
 
-You need to install the EPO Extension for `ATDDXLTags`. This will allow for management of the channel.
+You need to install the EPO Extension for `MATDDXLTag`. This will allow for management of the channel.
+
+The version of the MATDDXLTag Extension is 3.4.8.1 not to be confused with the ATD version or builds.
 
 ![install](epo_extension/extension-installed.png?raw=true)
 
