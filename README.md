@@ -323,6 +323,8 @@ Change the log level in the *UI of EPO* with a Policy Setting for the TIE Server
 On the Server Configuration tab, configure the logging level of the server, enable or disable collecting
 metrics, and modify the sampling period for collecting performance metrics.
 
+![permissions](epo_extension/2018-12-10-21-05.png?raw=true)
+
 You may want to restart the TIE server or service
 
 ## TIE Server 1.x
